@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodHub- A destination of delicious food</title>
+    <link rel="stylesheet" href="Style3.css">
+</head>
+<body>
+
+    <nav>
+        <h1>FoodHub</h1>
+        <ul>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#restaurants">Restaurants</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#Review">Testimonials</a></li>
+        </ul>
+        <div>
+            <button>Login</button>
+            <button>Sign Up</button>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <section id="intro">
+            <div class="intro-text">
+                <h1>Eat What You Love<br>Anytime</h1>
+                <p>Hungry? Don’t wait! Explore hundreds of tasty dishes, order in seconds, and get super-fast delivery. Your cravings, mood, and foodie plans</p>
+                <br> 
+                <button>Order</button>
+            </div>
+            
+            <div class="intro-image">
+                <img src="Intro image.png" alt="Delicious Food Table">
+            </div>
+        </section>
+
+        <section class="search-container">
+            <form>
+                <label for="location">Location:</label>
+                <input type="text" id="location" placeholder="Enter your location">
+                
+                <label for="category">Category:</label>
+                <select id="category">
+                    <option>All Categories</option>
+                    <option>Fast Food</option>
+                    <option>South Indian Food</option>
+                    <option>Healthy food</option>
+                    <option>Itialian Food</option>
+                    <option>Beverages</option>
+                </select>
+
+                <label for="Meals">No. of meals:</label>
+                <select id="Meals">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>More than 3</option>
+                </select>
+
+                <button type="button">Search</button>
+
+            </form>
+        </section>
+
+        <section id="categories">
+            <h2>Browse by Category</h2>
+            <ul class="category-list">
+                <li class="category-item"><span>🍕</span> Pizza</li>
+                <li class="category-item"><span>🍔</span> Burgers</li>
+                <li class="category-item"><span>🍣</span> Sushi</li>
+                <li class="category-item"><span>🍲</span> Indian</li>
+                <li class="category-item"><span>🍜</span> Chinese</li>
+                <li class="category-item"><span>🧁</span> Desserts</li>
+                <li class="category-item"><span>🥤</span> Drinks</li>
+            </ul>
+        </section>
+
+        <section id="restaurants">
+            <h2>Featured Restaurants</h2>
+            
+            <div class="card-container">
+                <article class="card">
+                    <img src="Pizza.png"alt="Pizza Palace">
+                    <div class="card-content">
+                        <h3>Pizza Palace</h3>
+                        <p><strong>Rating:</strong> 4.8/5</p>
+                        <p>Pizza, Italian</p>
+                        <small>20-30 min</small>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="Burger.png"Burger Hub">
+                    <div class="card-content">
+                        <h3>Burger Hub</h3>
+                        <p><strong>Rating:</strong> 4.6/5</p>
+                        <p>Burgers, Fast Food</p>
+                        <small>15-25 min</small>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="Momos.png"Momos">
+                    <div class="card-content">
+                        <h3>Dolma Aunty ke Momos</h3>
+                        <p><strong>Rating:</strong> 4.7/5</p>
+                        <p>Momos, Fast Food</p>
+                        <small>30-45 min</small>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="offers">
+            <h2>Promo Offers</h2>
+            <ul class="offers-list">
+                <li class="offer-card">
+                    <h3>🎉 30% OFF</h3>
+                    <p>On your first order</p>
+                    <button>Claim Now</button>
+                </li>
+                <li class="offer-card">
+                    <h3>🚚 Free Delivery</h3>
+                    <p>On orders above $20</p>
+                    <button>Learn More</button>
+                </li>
+            </ul>
+        </section>
+
+        <section id="Review">
+            <h2>Customer's Review</h2>
+            <div class="card-container">
+                <article class="card">
+                    <div class="card-content" style="text-align: center;">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah M." style="width: 60px; height: 60px; border-radius: 50%;">
+                        <p>★★★★★</p>
+                        <p>"Foodie makes ordering food so easy and quick! The delivery is always on time."</p>
+                        <p><strong>Sarah M.</strong></p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-content" style="text-align: center;">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="James L." style="width: 60px; height: 60px; border-radius: 50%;">
+                        <p>★★★★★</p>
+                        <p>"Great selection of restaurants and amazing offers. Highly recommend!"</p>
+                        <p><strong>James L.</strong></p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-content" style="text-align: center;">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Priya S." style="width: 60px; height: 60px; border-radius: 50%;">
+                        <p>★★★★★</p>
+                        <p>"The app is super user-friendly and the customer support is fantastic."</p>
+                        <p><strong>Priya S.</strong></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <h3>FoodHub</h3>
+        <nav style="background: none; justify-content: center; box-shadow: none;">
+            <a href="#">About Us</a> | 
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Terms</a> | 
+        </nav>
+        <p>Follow me on: Facebook | Twitter | Instagram</p>
+        <p>&copy; 2025 FoodHub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
